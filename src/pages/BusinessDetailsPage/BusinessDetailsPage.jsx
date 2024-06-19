@@ -73,7 +73,8 @@ const BusinessDetailsPage = () => {
         <div className='businessPageDetails'>
           <div className='avatar_logOut'>
             <div className='avatar_circle'>
-              {imageData && <img src={require(`../../../server/files/${imageData}`)} alt='User Avatar'
+            {imageData && <img src={require(`../../assets/casa.png`)} alt='User Avatar'
+              // {imageData && <img src={require(`../../../server/files/${imageData}`)} alt='User Avatar'
                 style={{
                   width: '100%',
                   height: '100%',
