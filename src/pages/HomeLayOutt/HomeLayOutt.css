@@ -1,0 +1,1395 @@
+.homeLayOutt_Container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    font-family: var(--font-base);
+}
+
+.invoice_to_moneyOut_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 85%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.moneyInOut_transact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 20px;
+    box-shadow: 0 0px 10px #b4b4b4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.moneyInDailyTransact_container {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    background-color: white;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.moneyOutDailyTransact_container {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    background-color: white;
+    padding: 30px 40px 30px 0px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+hr {
+    background-color: rgb(204, 204, 204);
+    border: none;
+    width: 1px;
+    size: 100%;
+}
+
+.items_wrap,
+.img_item_qty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.items_wrap {
+    width: 400px;
+
+}
+
+.img_item_qty {
+    width: 350px;
+
+}
+
+.itm {
+    font-size: 22px;
+    width: 220px;
+
+}
+
+.qty {
+    font-size: 18px;
+    color: gray;
+
+}
+
+.numbers2,
+.numbers3 {
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    color: #019901;
+    width: 150px;
+}
+
+.numbers3 {
+    color: red;
+
+}
+
+.img,
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #faea11;
+    box-shadow: 0 0px 10px #b4b4b4;
+    border-radius: 50%;
+}
+
+.img2 {
+    background-color: black;
+
+}
+
+.moneyIn_viewAll,
+.moneyOut_viewAll {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 420px
+}
+
+.viewAllTxt {
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+
+.viewAllTxt p:hover {
+    color: var(--color-yellow)
+}
+
+.viewAllTxt a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.viewAllTxt a:hover {
+    border-bottom: 1px solid var(--color-yellow);
+}
+
+
+.moneyInTxt,
+.moneyOutTxt {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0px;
+}
+
+.invoice_Container {
+    width: 95%;
+    height: 50%;
+    padding: 30px 18px 30px 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+    box-shadow: 0 0px 10px #b4b4b4;
+}
+
+.balance_yourDebt_wrapper,
+.moneyIn_moneyOut_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+
+}
+
+.moneyIn_moneyOut_wrapper {
+    margin-top: 0px;
+}
+
+.balanceDue_container,
+.yourDebt_container,
+.moneyIn_container,
+.moneyOut_container {
+    height: 100%;
+    width: 47%;
+    box-shadow: 0 0px 10px #b4b4b4;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.yourDebt_container,
+.moneyOut_container {
+    margin-left: 15px;
+}
+
+.yourDebt_container,
+.balanceDue_container {
+    margin-top: 15px;
+
+}
+
+.invoice_content_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.icons_and_texts {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.icons_and_text2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84%;
+}
+
+.circle,
+.circle_green,
+.circle_orange,
+.circle_green2,
+.circle_orange2,
+.circle_black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #faea11;
+    box-shadow: 0 0px 10px #b4b4b4;
+    border-radius: 50%;
+}
+
+.circle_green,
+.circle_green2 {
+    background-color: #019901;
+}
+
+.circle_black {
+    background-color: black;
+}
+
+.circle_green2_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.circle_orange,
+.circle_orange2 {
+    background-color: rgb(241, 131, 6);
+}
+
+.text_and_number {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin-bottom: 0px;
+    /* gap: 30px */
+}
+
+.edit_del_print {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-top: 10px;
+
+}
+
+.sentOut {
+    font-size: 17px;
+    color: gray;
+}
+
+.number {
+    font-size: 55px;
+    color: rgb(71, 71, 71);
+
+}
+
+.invoiceData {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0px;
+}
+
+.monthly {
+    font-size: 18px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.moneyIn_to_button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.moneyIn_to_button2 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 25px;
+}
+
+.moneyIn,
+.balanceDue,
+.yourDebt {
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0px;
+}
+
+.creditIncome,
+.descriptive_text {
+    font-size: 15px;
+
+}
+
+.amount {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+.moneyIn_card_button,
+.moneyIn_card_button2 {
+    border-radius: 8px 8px 8px 8px;
+    background-color: #019901;
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: white;
+    box-shadow: 0 0px 10px #b4b4b4;
+    font-family: var(--font-base);
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.moneyIn_card_button2 {
+    background-color: rgb(241, 131, 6);
+}
+
+@media screen and (max-width: 1366px) {
+    .homeLayOutt_Container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .invoice_to_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .creditIncome,
+    .descriptive_text {
+        font-size: 20px;
+
+    }
+
+    .balance_yourDebt_wrapper,
+    .moneyIn_moneyOut_wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 50%;
+        align-items: baseline;
+        margin-right: 50px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .yourDebt_container {
+        width: 80vw;
+        margin-left: 15px;
+        margin-right: 0px;
+        padding-bottom: 30px;
+
+    }
+
+    .balanceDue_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 0px;
+        height: 100%;
+
+    }
+
+    .moneyIn_container {
+        width: 80vw;
+    }
+
+    .moneyOut_container {
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+
+    .moneyInOut_transact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90vw;
+        height: 70%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 0px 20px -20px;
+        box-shadow: 0 0px 10px #b4b4b4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 5px;
+    }
+
+    .moneyIn_viewAll,
+    .moneyOut_viewAll {
+        width: 83vw;
+
+    }
+
+    .moneyOutTxt,
+    .moneyInTxt {
+        font-size: 30px;
+    }
+
+    .viewAllTxt {
+        font-size: 22px;
+
+    }
+
+    .items_wrap {
+        width: 80vw;
+    }
+
+    .img_item_qty {
+        width: 220px;
+    }
+
+    .itm {
+        font-size: 30px;
+    }
+
+    .numbers2,
+    .numbers3,
+    .qty {
+        font-size: 30px;
+    }
+
+    .numbers3 {
+        width: 500px;
+    }
+
+    .edit_del_print {
+        font-size: 1px;
+    }
+
+    .img,
+    .img2 {
+        width: 45px;
+        height: 36px;
+        margin-right: 5px;
+    }
+
+    .invoiceData {
+        font-size: 30px
+    }
+
+    .monthly {
+        font-size: 25px;
+    }
+
+    .invoice_Container {
+        width: 78vw;
+        margin-left: 0px;
+        margin-right: 60px;
+        margin-bottom: -25px;
+        padding-bottom: -50px;
+    }
+
+    .circle,
+    .circle_green,
+    .circle_orange,
+    .circle_green2,
+    .circle_orange2,
+    .circle_black {
+        width: 90px;
+        height: 90px;
+    }
+
+    .icons_and_texts {
+        flex-direction: row;
+        width: 200px
+    }
+
+    .icons_and_text2 {
+        gap: 20px;
+        width: 75vw;
+        margin-right: 10px;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sentOut {
+        font-size: 25px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+    .homeLayOutt_Container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .invoice_to_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .creditIncome,
+    .descriptive_text {
+        font-size: 20px;
+
+    }
+
+    .balance_yourDebt_wrapper,
+    .moneyIn_moneyOut_wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 50%;
+        align-items: baseline;
+        margin-right: 50px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .yourDebt_container {
+        width: 80vw;
+        margin-left: 15px;
+        margin-right: 0px;
+        padding-bottom: 10px;
+
+    }
+
+    .balanceDue_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 16px;
+        height: 100%;
+
+    }
+
+    .moneyIn_container {
+        width: 80vw;
+    }
+
+    .moneyOut_container {
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+
+    .moneyInOut_transact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90vw;
+        height: 70%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 0px 20px -20px;
+        box-shadow: 0 0px 10px #b4b4b4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 5px;
+    }
+
+    .moneyIn_viewAll,
+    .moneyOut_viewAll {
+        width: 83vw;
+    }
+
+    .moneyOutTxt,
+    .moneyInTxt {
+        font-size: 30px;
+    }
+
+    .viewAllTxt {
+        font-size: 22px;
+
+    }
+
+    .items_wrap {
+        width: 80vw;
+    }
+
+    .img_item_qty {
+        width: 220px;
+    }
+
+    .itm {
+        font-size: 30px;
+    }
+
+    .numbers2,
+    .numbers3,
+    .qty {
+        font-size: 30px;
+    }
+
+    .numbers3 {
+        width: 500px;
+    }
+
+    .edit_del_print {
+        font-size: 1px;
+    }
+
+    .img,
+    .img2 {
+        width: 45px;
+        height: 36px;
+        margin-right: 5px;
+    }
+
+    .invoiceData {
+        font-size: 30px
+    }
+
+    .monthly {
+        font-size: 25px;
+    }
+
+    .invoice_Container {
+        width: 78vw;
+        margin-left: 0px;
+        margin-right: 60px;
+        margin-bottom: -25px;
+        padding-bottom: -50px;
+    }
+
+    .circle,
+    .circle_green,
+    .circle_orange,
+    .circle_green2,
+    .circle_orange2,
+    .circle_black {
+        width: 90px;
+        height: 90px;
+    }
+
+    .icons_and_texts {
+        flex-direction: row;
+        width: 200px
+    }
+
+    .icons_and_text2 {
+        gap: 20px;
+        width: 75vw;
+        margin-right: 10px;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sentOut {
+        font-size: 25px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .homeLayOutt_Container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .invoice_to_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .balance_yourDebt_wrapper,
+    .moneyIn_moneyOut_wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 50%;
+        align-items: baseline;
+        margin-right: 50px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .yourDebt_container {
+        width: 80vw;
+        margin-left: 15px;
+        margin-right: 0px;
+
+    }
+
+    .balanceDue_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: -0px;
+        height: 100%;
+
+    }
+
+    .moneyIn_container {
+        width: 80vw;
+    }
+
+    .moneyOut_container {
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+
+    .moneyInOut_transact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 87vw;
+        height: 70%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 0px 20px 20px;
+        box-shadow: 0 0px 10px #b4b4b4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 5px;
+    }
+
+    .moneyIn_viewAll,
+    .moneyOut_viewAll {
+        width: 83vw;
+
+    }
+
+    .moneyOutTxt,
+    .moneyInTxt {
+        font-size: 20px;
+    }
+
+    .viewAllTxt {
+        font-size: 15px;
+
+    }
+
+    .items_wrap {
+        width: 80vw;
+    }
+
+    .img_item_qty {
+        width: 220px;
+    }
+
+    .itm {
+        font-size: 20px;
+    }
+
+    .numbers2,
+    .numbers3,
+    .qty {
+        font-size: 20px;
+    }
+
+    .numbers3 {
+        width: 500px;
+    }
+
+    .edit_del_print {
+        font-size: 1px;
+    }
+
+    .img,
+    .img2 {
+        width: 45px;
+        height: 36px;
+        margin-right: 5px;
+    }
+
+    .invoiceData {
+        font-size: 30px
+    }
+
+    .monthly {
+        font-size: 20px;
+    }
+
+    .invoice_Container {
+        width: 78vw;
+        margin-left: 0px;
+        margin-right: 60px;
+        margin-bottom: -25px;
+    }
+
+    .circle,
+    .circle_green,
+    .circle_orange,
+    .circle_green2,
+    .circle_orange2,
+    .circle_black {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icons_and_texts {
+        flex-direction: row;
+        width: 200px
+    }
+
+    .icons_and_text2 {
+        gap: 20px;
+        width: 75vw;
+        margin-right: 10px;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sentOut {
+        font-size: 20px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .homeLayOutt_Container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .invoice_to_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .balance_yourDebt_wrapper,
+    .moneyIn_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        margin-right: 60px;
+        width: 90vw;
+    }
+
+    .yourDebt_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .balanceDue_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .moneyIn_container {
+        width: 80vw;
+    }
+
+    .moneyOut_container {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+
+    .moneyInOut_transact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 86vw;
+        height: 70%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 0px 20px 20px;
+        box-shadow: 0 0px 10px #b4b4b4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+
+    .moneyIn_viewAll,
+    .moneyOut_viewAll {
+        width: 85vw;
+
+    }
+
+    .moneyOutTxt,
+    .moneyInTxt {
+        font-size: 20px;
+    }
+
+    .viewAllTxt {
+        font-size: 15px;
+
+    }
+
+    .items_wrap {
+        width: 80vw;
+    }
+
+    .img_item_qty {
+        width: 220px;
+    }
+
+    .itm {
+        font-size: 15px;
+    }
+
+    .numbers2,
+    .numbers3,
+    .qty {
+        font-size: 15px;
+    }
+
+    .numbers3 {
+        width: 500px;
+    }
+
+    .edit_del_print {
+        font-size: 1px;
+    }
+
+    .img,
+    .img2 {
+        width: 45px;
+        height: 36px;
+        margin-right: 5px;
+    }
+
+    .invoiceData {
+        font-size: 30px
+    }
+
+    .monthly {
+        font-size: 15px;
+    }
+
+    .invoice_Container {
+        width: 78vw;
+        margin-left: 0px;
+        margin-right: 60px;
+    }
+
+    .circle,
+    .circle_green,
+    .circle_orange,
+    .circle_green2,
+    .circle_orange2,
+    .circle_black {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icons_and_texts {
+        flex-direction: column;
+    }
+
+    .icons_and_text2 {
+        gap: 20px;
+        width: 80vw;
+        margin-right: 10px;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sentOut {
+        font-size: 15px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .homeLayOutt_Container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .invoice_to_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .balance_yourDebt_wrapper,
+    .moneyIn_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        margin-right: 60px;
+        width: 90vw;
+    }
+
+    .yourDebt_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .balanceDue_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .moneyIn_container {
+        width: 80vw;
+    }
+
+    .moneyOut_container {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+
+    .moneyInOut_transact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 86vw;
+        height: 70%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 0px 20px 20px;
+        box-shadow: 0 0px 10px #b4b4b4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .moneyIn_viewAll,
+    .moneyOut_viewAll {
+        width: 85vw;
+
+    }
+
+    .moneyOutTxt,
+    .moneyInTxt {
+        font-size: 20px;
+    }
+
+    .viewAllTxt {
+        font-size: 15px;
+
+    }
+
+    .items_wrap {
+        width: 80vw;
+    }
+
+    .img_item_qty {
+        width: 220px;
+    }
+
+    .itm {
+        font-size: 15px;
+    }
+
+    .numbers2,
+    .numbers3,
+    .qty {
+        font-size: 15px;
+    }
+
+    .numbers3 {
+        width: 500px;
+    }
+
+    .edit_del_print {
+        font-size: 1px;
+    }
+
+    .img,
+    .img2 {
+        width: 45px;
+        height: 36px;
+        margin-right: 5px;
+    }
+
+    .invoiceData {
+        font-size: 30px
+    }
+
+    .monthly {
+        font-size: 15px;
+    }
+
+    .invoice_Container {
+        width: 78vw;
+        margin-left: 0px;
+        margin-right: 60px;
+    }
+
+    .circle,
+    .circle_green,
+    .circle_orange,
+    .circle_green2,
+    .circle_orange2,
+    .circle_black {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icons_and_texts {
+        flex-direction: column;
+    }
+
+    .icons_and_text2 {
+        gap: 20px;
+        width: 80vw;
+        margin-right: 10px;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sentOut {
+        font-size: 15px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .homeLayOutt_Container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .invoice_to_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .balance_yourDebt_wrapper,
+    .moneyIn_moneyOut_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        margin-right: 60px;
+        width: 90vw;
+    }
+
+    .yourDebt_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .balanceDue_container {
+        width: 80vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .moneyIn_container {
+        width: 80vw;
+    }
+
+    .moneyOut_container {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 80vw;
+    }
+
+    .moneyInOut_transact_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 86vw;
+        height: 70%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 0px 20px 20px;
+        box-shadow: 0 0px 10px #b4b4b4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .moneyIn_viewAll,
+    .moneyOut_viewAll {
+        width: 85vw;
+
+    }
+
+    .moneyOutTxt,
+    .moneyInTxt {
+        font-size: 20px;
+    }
+
+    .viewAllTxt {
+        font-size: 15px;
+
+    }
+
+    .items_wrap {
+        width: 80vw;
+    }
+
+    .img_item_qty {
+        width: 220px;
+    }
+
+    .itm {
+        font-size: 15px;
+    }
+
+    .numbers2,
+    .numbers3,
+    .qty {
+        font-size: 15px;
+    }
+
+    .numbers3 {
+        width: 500px;
+    }
+
+    .edit_del_print {
+        font-size: 1px;
+    }
+
+    .img,
+    .img2 {
+        width: 45px;
+        height: 36px;
+        margin-right: 5px;
+    }
+
+    .invoiceData {
+        font-size: 30px
+    }
+
+    .monthly {
+        font-size: 15px;
+    }
+
+    .invoice_Container {
+        width: 78vw;
+        margin-left: 0px;
+        margin-right: 60px;
+    }
+
+    .circle,
+    .circle_green,
+    .circle_orange,
+    .circle_green2,
+    .circle_orange2,
+    .circle_black {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icons_and_texts {
+        flex-direction: column;
+    }
+
+    .icons_and_text2 {
+        gap: 20px;
+        width: 80vw;
+        margin-right: 10px;
+    }
+
+    .number {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sentOut {
+        font-size: 15px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+}

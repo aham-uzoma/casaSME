@@ -1,0 +1,286 @@
+.newInvoice_div {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: var(--font-base);
+}
+
+.black-Surfacee {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: var(--color-black);
+    height: 30vh;
+}
+
+.black-Surfacee h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: var(--font-base);
+    color: var(--color-yellow);
+    padding: 25px 25px 25px 25px;
+}
+
+.newInvoice_wrapper h1 {
+    margin-bottom: 20px;
+}
+
+.newInvoice_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    width: 45vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+.newInvoiceList {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+
+.newInvoiceData {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+
+.txtColor {
+    color: gray;
+    cursor: pointer;
+}
+
+.invoiceList {
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.addCustomerInfo {
+    width: 95%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-yellow);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.custInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.newInvoice_div p {
+    font-size: 25px;
+
+}
+
+.newInvoice_wrapper button {
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--color-yellow);
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-family: var(--font-base);
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .newInvoice_div {
+        width: 100vw;
+    }
+
+    .newInvoice_wrapper {
+        width: 60%;
+
+    }
+
+    .newInvoiceData {
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .newInvoice_div {
+        width: 100vw;
+    }
+
+    .newInvoice_wrapper {
+        width: 70%;
+
+    }
+
+    .newInvoiceData {
+        width: 90%;
+
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .newInvoice_div {
+        width: 100vw;
+    }
+
+    .newInvoice_wrapper {
+        width: 80%;
+
+    }
+
+    .newInvoiceData {
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .newInvoice_div {
+        width: 540px;
+    }
+
+    .newInvoice_wrapper {
+        width: 90vw;
+
+    }
+
+    .newInvoiceData {
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .newInvoice_div {
+        width: 414px;
+
+    }
+
+    .black-Surfacee {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .black-Surfacee h1 {
+        font-size: 30px;
+    }
+
+    .newInvoice_wrapper {
+        width: 85vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .newInvoice_wrapper h1 {
+        font-size: 25px;
+    }
+
+    .addCustomerInfo {
+        width: 95%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: solid;
+        font-size: 25px;
+        border-width: 2px;
+        border-color: var(--color-yellow);
+        border-radius: 10px 10px 10px 10px;
+        margin-bottom: 20px;
+    }
+
+    .custInfo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .custInfo p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .newInvoiceData {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 412px) {
+    .newInvoice_div {
+        width: 412px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .newInvoice_div {
+        width: 390px;
+    }
+
+    .newInvoice_wrapper {
+        width: 85vw;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .newInvoice_div {
+        width: 375px;
+    }
+
+    .newInvoice_wrapper {
+        width: 85vw;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .newInvoice_div {
+        width: 360px;
+    }
+
+    .newInvoice_wrapper {
+        width: 85vw;
+
+    }
+
+    .custInfo p {
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,197 @@
+.editInventoryForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #cccbcb;
+
+}
+
+.productDetailsFrm {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+label {
+    display: inline-block;
+    width: 125px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: var(--font-base);
+}
+
+h1 {
+    font-family: var(--font-base);
+}
+
+.totalSellingPriceNumba {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.done_Cancel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.done_Btn,
+.cancel_Btnn {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    font-family: var(--font-base);
+    background-color: rgb(11, 114, 11);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.cancel_Btnn {
+    background-color: rgb(250, 42, 42);
+
+}
+
+.name_of_productt,
+.cost_pricee,
+.selling_pricee,
+.unit_of_measurementt,
+.quantityCountt {
+    width: 560px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    font-family: var(--font-base);
+}
+
+@media screen and (max-width: 1100px) {
+
+    .name_of_productt,
+    .cost_pricee,
+    .selling_pricee,
+    .unit_of_measurementt,
+    .quantityCountt {
+        width: 60vw;
+        height: 55px;
+    }
+
+    .productDetailsFrm {
+        width: 60vw;
+        padding: 20px 40px 20px 40px;
+
+    }
+
+    label {
+        display: grid;
+
+    }
+
+    .done_Cancel {
+        width: 60vw;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .name_of_productt,
+    .cost_pricee,
+    .selling_pricee,
+    .unit_of_measurementt,
+    .quantityCountt {
+        width: 90vw;
+        height: 55px;
+    }
+
+    .productDetailsFrm {
+        width: 85vw;
+        padding: 20px 40px 20px 40px;
+
+    }
+
+    label {
+        display: grid;
+
+    }
+
+    .done_Cancel {
+        width: 90vw;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .name_of_productt,
+    .cost_pricee,
+    .selling_pricee,
+    .unit_of_measurementt,
+    .quantityCountt {
+        width: 90vw;
+        height: 55px;
+    }
+
+    .productDetailsFrm {
+        width: 85vw;
+
+    }
+
+    label {
+        display: grid;
+
+    }
+
+    .done_Cancel {
+        width: 90vw;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .name_of_productt,
+    .cost_pricee,
+    .selling_pricee,
+    .unit_of_measurementt,
+    .quantityCountt {
+        width: 87vw;
+        height: 55px;
+    }
+
+    .productDetailsFrm {
+        width: 75vw;
+
+    }
+
+    .done_Cancel {
+        width: 85vw;
+        gap: 10px;
+    }
+
+}

@@ -1,0 +1,62 @@
+.customerNameSection {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 25px;
+}
+
+.customersName,
+.customersContact {
+    width: 500px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.saveCustomersBtnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saveCustomersBtn {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 580px) {
+
+    .customersName,
+    .customersContact {
+        width: 300px;
+        height: 50px;
+        font-size: 17px;
+        padding: 12px 20px;
+        margin: 15px 0;
+        box-sizing: border-box;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .customerNameSection h3 {
+        font-size: 17px;
+    }
+
+    .saveCustomersBtn {
+        height: 60px;
+    }
+
+}

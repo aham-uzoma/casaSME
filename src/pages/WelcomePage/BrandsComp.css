@@ -1,0 +1,99 @@
+.brandsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 16px;
+    height: 300px;
+}
+
+.brandsImageWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px;
+    height: 60px;
+    width: 80%;
+}
+
+.brandsImageWrapper img {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1000px) {
+    .brandsSection {
+        height: 400px;
+
+
+    }
+
+    .brandsImageWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding: 0px;
+        height: 400px;
+        width: 100vw;
+    }
+
+    .brandsImageWrapper img {
+        width: 40vw;
+        height: 90px;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+    .brandsSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 16px;
+        height: 700px;
+        margin-bottom: 70px;
+    }
+
+    .brandsImageWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 16px;
+        height: 700px;
+        width: 40vw;
+    }
+
+    .brandsImageWrapper img {
+        width: 30vw;
+        height: 90px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .brandsSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 16px;
+        height: 350px;
+    }
+
+    .brandsImageWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 16px;
+        height: 350px;
+        width: 80%;
+    }
+
+    .brandsImageWrapper img {
+        opacity: 0.5;
+    }
+}

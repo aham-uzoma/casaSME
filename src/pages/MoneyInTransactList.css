@@ -1,0 +1,53 @@
+.txt_wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #faea11;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+}
+
+.itemsAddedd,
+.totalItemsAddedd {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 7px;
+}
+
+.totalItemsAddedd {
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.totalItemsAddedd p {
+    color: white;
+}
+
+.modeOfPay_debtor {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff6ed;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 7px;
+}
+
+.payment {
+    color: green;
+}
+
+.debt {
+    color: red;
+}

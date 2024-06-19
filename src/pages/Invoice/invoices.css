@@ -1,0 +1,698 @@
+.blackSurfacee {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: var(--color-black);
+    height: 30vh;
+}
+
+.blackSurfacee h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: var(--font-base);
+    color: var(--color-yellow);
+    padding: 25px 25px 25px 25px;
+}
+
+.newInvoice_background {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: var(--font-base);
+}
+
+.invoice_wrapper {
+    width: 45vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+.invoicesDateContainer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 25px;
+}
+
+.invDateSelectionn {
+    margin: 5px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 15px 15px 15px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-yellow);
+    border-radius: 10px 10px 10px 10px;
+    width: 93%;
+    height: 200px;
+    align-items: center;
+
+}
+
+.selectInvDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+.addInvoiceContainer {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 25px;
+
+}
+
+.invoiceData_div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 25px;
+}
+
+.createNewInvoice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.cibtnContainer {
+    width: 220px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.customer_btn,
+.item_btn {
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    border: 1px solid var(--color-yellow);
+    height: 35px;
+    width: 100px;
+    font-family: var(--font-base);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item_btn:hover {
+    background-color: var(--color-yellow);
+}
+
+.customer_btn:hover {
+    background-color: var(--color-yellow);
+}
+
+.item_btn:active {
+    background-color: var(--color-yellow);
+}
+
+.customer_btn:active {
+    background-color: var(--color-yellow);
+}
+
+.addCustomerForms,
+.itemDetailsFormm {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-base);
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.customerName,
+.phoneNumber,
+.address,
+.state,
+.productName,
+.sellingPrice,
+.vat,
+.selectUnittx {
+    width: 500px;
+    height: 55px;
+    padding: 12px 25px;
+    margin: 9px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    font-family: var(--font-base);
+}
+
+.addCustomerBtnDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.addCustomerBttn,
+.addItemz_Btnn,
+.saveProducts_Btnn {
+    width: 600px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.addCustomerForms {
+    margin-bottom: 100px;
+}
+
+.customer_data span {
+    color: green;
+}
+
+.plus_minus {
+    align-items: center;
+}
+
+.addItemz_Btnn_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+/**invoice Item List*/
+
+.itemsListt,
+.total_itemss,
+.customer_data {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0.5px 8px #faea11;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.total_itemss div {
+    color: green;
+}
+
+.total_itemss {
+    width: 550px;
+    box-shadow: 0 0.5px 8px #cccbcb;
+
+}
+
+.eachItmAddedd {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.deleteEditFontss {
+    display: block;
+    align-self: center;
+    cursor: pointer;
+}
+
+.itemstextt {
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 5px 10px 3px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 835px) {
+
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 5px 10px 3px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 5px 10px 3px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 5px 10px 3px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 5px 10px 3px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 5px 10px 3px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        padding: 10px 5px 10px 1px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .blackSurfacee {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .blackSurfacee h1 {
+        font-size: 30px;
+    }
+
+    .invoice_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .invDateSelectionn {
+        margin: 1px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        padding: 10px 5px 10px 1px;
+        width: 95%;
+
+    }
+
+    .selectInvDate {
+        margin-top: 20px;
+    }
+
+    .invoiceData_div h2 {
+        font-size: 20px;
+    }
+
+    .createNewInvoice div {
+        font-size: 20px;
+    }
+
+    .customerName,
+    .phoneNumber,
+    .address,
+    .state,
+    .productName,
+    .sellingPrice,
+    .vat,
+    .selectUnittx {
+
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .total_itemss {
+        flex-direction: column;
+        width: 77vw;
+    }
+
+    .saveProducts_Btnn {
+        width: 77vw;
+    }
+
+}

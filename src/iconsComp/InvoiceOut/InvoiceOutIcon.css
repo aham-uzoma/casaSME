@@ -1,0 +1,11 @@
+.invoiceOutIcon {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .invoiceOutIcon {
+        width: 20px;
+        height: 20px;
+    }
+}

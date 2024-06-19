@@ -1,0 +1,247 @@
+.logIn_div {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: var(--font-base);
+}
+
+.logIn_wrap {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+
+}
+
+.logIn_wrap p {
+    color: rgb(122, 122, 122);
+}
+
+.logInForms {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-family: var(--font-base);
+}
+
+.input_field_round_edges {
+    width: 500px;
+    height: 65px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    font-family: var(--font-base);
+}
+
+.long_round_buttons {
+    width: 95%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+    border: none;
+    cursor: pointer;
+}
+.long_round_buttons p {
+  color: black;
+}
+
+.long_round_buttons_transparent {
+    width: 95%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+    border-color: rgb(211, 210, 210);
+    border-width: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    .logIn_wrap {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .logIn_wrap {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .logIn_wrap {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .logIn_wrap {
+        width: 90vw;
+    }
+
+    .logInForms {
+        padding: 20px;
+
+    }
+
+    .logInForms label {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .input_field_round_edges {
+        width: 50vw;
+        height: 55px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .long_round_buttons {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .long_round_buttons_transparent {
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logIn_wrap {
+        width: 50vw;
+    }
+
+    .logInForms {
+        padding: 20px;
+
+    }
+
+    .logInForms label {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .input_field_round_edges {
+        width: 50vw;
+        height: 55px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .long_round_buttons {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .long_round_buttons_transparent {
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logIn_wrap {
+        width: 70vw;
+    }
+
+    .input_field_round_edges {
+        width: 70vw;
+        height: 55px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .logIn_wrap {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .logInForms {
+        padding: 20px;
+
+    }
+
+    .logInForms label {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .input_field_round_edges {
+        width: 80vw;
+        height: 55px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .long_round_buttons {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .long_round_buttons_transparent {
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .logIn_wrap {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .logInForms {
+        padding: 20px;
+
+    }
+
+    .logInForms label {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .input_field_round_edges {
+        width: 80vw;
+        height: 55px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .long_round_buttons {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .long_round_buttons_transparent {
+        height: 50px;
+        font-size: 15px;
+    }
+}

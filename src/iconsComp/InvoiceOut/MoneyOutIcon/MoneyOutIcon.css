@@ -1,0 +1,21 @@
+.moneyOutIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.moneyOutIcon2 {
+    width: 16px;
+    height: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    .moneyOutIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .moneyOutIcon2 {
+        width: 16px;
+        height: 16px;
+    }
+}

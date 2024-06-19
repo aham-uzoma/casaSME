@@ -1,0 +1,317 @@
+.businessPage {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: var(--font-base);
+}
+
+.blackSurface_Bus {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    background: var(--color-black);
+    height: 30vh;
+}
+
+.blackSurface_Bus h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: var(--font-base);
+    padding: 25px 25px 25px 25px;
+    color: var(--color-yellow);
+}
+
+.businessPageDetails {
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar_logOut {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: gainsboro;
+    font-weight: bold;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+
+.Edit_profile_logOut {
+    width: 500px;
+    padding: 20px 0px 20px 0px;
+}
+
+.edit_profile_btn,
+.updateBtn,
+.cancleBtn {
+    width: 500px;
+    height: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}
+
+.updateBtn {
+    width: 240px;
+    background-color: green;
+    color: white;
+}
+
+.cancleBtn {
+    width: 240px;
+    background-color: red;
+    color: white;
+}
+
+.avatar_circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: darkgrey;
+}
+
+.businessInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    width: 40vw;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0.5px 8px #cccbcb;
+}
+
+.update_logOut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    color: rgb(133, 132, 132);
+    cursor: pointer;
+
+}
+
+.bus_name_about_bus,
+.phone_email,
+.userDetails {
+    padding: 20px 20px 20px 20px;
+    color: darkgray;
+}
+
+.logOut:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.updatePhoto:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.alignBtns {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+    .businessPageDetails {
+        width: 95vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .businessPageDetails {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .avatar_circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: darkgrey;
+    }
+
+    .edit_profile_btn {
+        width: 400px
+    }
+
+    .Edit_profile_logOut {
+        width: 400px;
+    }
+
+    .alignBtns {
+        width: 400px
+    }
+
+    .updateBtn {
+        width: 195px;
+        height: 55px;
+        background-color: green;
+        color: white;
+    }
+
+    .cancleBtn {
+        width: 195px;
+        height: 55px;
+        background-color: red;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .businessPageDetails {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .blackSurface_Bus h1 {
+        font-size: 25px;
+    }
+
+    .avatar_logOut {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+
+    .Edit_profile_logOut {
+        width: 80vw;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .edit_profile_btn {
+        width: 80vw
+    }
+
+    .avatar_circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: darkgrey;
+    }
+
+    .alignBtns {
+        width: 80vw
+    }
+
+    .updateBtn {
+        width: 38vw;
+        height: 55px;
+        background-color: green;
+        color: white;
+    }
+
+    .cancleBtn {
+        width: 38vw;
+        height: 55px;
+        background-color: red;
+        color: white;
+    }
+
+    .businessName {
+        font-size: 15px;
+    }
+
+    .businessInfo {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .businessPageDetails {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .blackSurface_Bus h1 {
+        font-size: 25px;
+    }
+
+    .avatar_logOut {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+
+    .Edit_profile_logOut {
+        width: 80vw;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .edit_profile_btn {
+        width: 80vw
+    }
+
+    .avatar_circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: darkgrey;
+    }
+
+    .alignBtns {
+        width: 80vw
+    }
+
+    .updateBtn {
+        width: 38vw;
+        height: 40px;
+        background-color: green;
+        color: white;
+    }
+
+    .cancleBtn {
+        width: 38vw;
+        height: 40px;
+        background-color: red;
+        color: white;
+    }
+
+    .businessName {
+        font-size: 15px;
+    }
+
+    .businessInfo {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+
+    }
+}

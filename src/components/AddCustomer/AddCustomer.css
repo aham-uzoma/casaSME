@@ -1,0 +1,79 @@
+.addCustomerdiv {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 5px;
+}
+
+.addCustomersBtn {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.customerNameContactDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.deptAmount {
+    color: red;
+}
+
+.nameContact {
+    font-weight: bold;
+}
+
+.trashcan {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+    .addCustomerdiv {
+        font-size: 16px;
+    }
+
+    .addCustomersBtn {
+        width: 200px;
+        font-size: 10px;
+
+    }
+
+    .customerNameContactDisplay {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .addCustomerdiv {
+        font-size: 13px;
+    }
+
+    .customerDetailsBtn {
+        width: 150px;
+        font-size: 13px;
+    }
+
+    .addCustomersBtn {
+        width: 300px;
+        font-size: 4px;
+
+    }
+}

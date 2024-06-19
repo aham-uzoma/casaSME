@@ -1,0 +1,252 @@
+.registeration_div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: var(--font-base);
+}
+
+.registration_wrap {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+
+}
+
+.registration_wrap p {
+    color: rgb(122, 122, 122);
+}
+
+.registerForms {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-family: var(--font-base);
+}
+
+.input_field_round_edges {
+    width: 500px;
+    height: 65px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    font-family: var(--font-base);
+}
+
+.long_round_buttons {
+    width: 95%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+    border: none;
+    cursor: pointer;
+}
+.long_round_buttons p{
+    color: black
+}
+
+.long_round_buttons_transparent {
+    width: 95%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+    border-color: rgb(211, 210, 210);
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.select_a_picture::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #a29bfe;
+    transition: 1s;
+}
+
+.select_a_picture::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+    cursor: pointer;
+}
+
+.pictureLabel {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+    font-family: var(--font-base);
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1366px) {
+    .registration_wrap {
+        width: 39vw;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .registeration_div {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .registration_wrap {
+        width: 49vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .registration_wrap {
+        width: 50vw;
+
+    }
+
+    .registration_wrap h1 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .input_field_round_edges {
+        width: 90vw;
+        height: 48px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .long_round_buttons {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .long_round_buttons_transparent {
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .registration_wrap {
+        width: 59vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .registration_wrap {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .select_a_picture {
+        padding-left: 15px;
+    }
+
+    .pictureLabel {
+        padding-left: 15px;
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .registration_wrap {
+        width: 74vw;
+    }
+
+    .select_a_picture {
+        padding-left: 15px;
+    }
+
+    .pictureLabel {
+        padding-left: 15px;
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .registration_wrap {
+        width: 80vw;
+    }
+
+    .select_a_picture {
+        padding-left: 15px;
+    }
+
+    .select_a_picture::file-selector-button {
+        font-size: 13px;
+    }
+
+    .pictureLabel {
+        font-size: 13px;
+        padding-left: 15px;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .registration_wrap {
+        width: 80vw;
+
+    }
+
+    .registration_wrap h1 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .input_field_round_edges {
+        width: 90vw;
+        height: 48px;
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .long_round_buttons {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .long_round_buttons_transparent {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .select_a_picture {
+        padding-left: 15px;
+    }
+
+    .select_a_picture::file-selector-button {
+        font-size: 13px;
+    }
+
+    .pictureLabel {
+        font-size: 13px;
+        padding-left: 15px;
+
+    }
+}

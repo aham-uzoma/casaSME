@@ -1,0 +1,567 @@
+/**MoneyIn Page**/
+.moneyInRoute {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  font-family: var(--font-base);
+
+}
+
+.moneyInPage {
+  width: 45vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+}
+
+.credit {
+  color: #008000;
+  margin-top: 0px;
+}
+
+.enterMoneyTxt {
+  margin-bottom: 0px;
+}
+
+.dateMoneyTab,
+.addCustomerRequired {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalAndRecievedAmt,
+.discountContainer,
+.balanceDueContainer,
+.addCustomerdiv,
+.repaymentDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-inLine {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.radio {
+  font-size: 19px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+input[type="radio"]:checked {
+
+  border: 8px solid var(--color-yellow);
+  outline: unset;
+}
+
+
+.totalAmtFrm,
+.amtRecievedfrm {
+  width: 310px;
+  height: 55px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: var(--font-base);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.itemDescriptionFrm {
+  width: 500px;
+  height: 55px;
+  padding: 12px 20px;
+  margin: 15px 0;
+  font-size: 20px;
+  font-family: var(--font-base);
+  box-sizing: border-box;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.description,
+.addCustomerdiv,
+.modeOfPayment,
+.suggested_data {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: 0 0.5px 8px #cccbcb;
+  padding: 0px 20px 20px 20px;
+  margin-bottom: 25px;
+  font-size: 19px;
+  font-family: var(--font-base);
+}
+
+.suggested_data {
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  width: 490px;
+  border-style: solid 1px;
+  color: rgb(77, 76, 76);
+  box-shadow: 0 0.5px 8px var(--color-yellow);
+  cursor: pointer;
+}
+
+.modeOfPayment {
+  margin-top: 25px;
+}
+
+.description,
+.modeOfPayment {
+  padding: 20px 20px 20px 20px;
+}
+
+.addCustomerdiv {
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.addItemdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0px 15px 0px;
+}
+
+.addItem {
+  width: 80%;
+  height: 60px;
+  border-radius: 10px 10px 10px 10px;
+  font-family: var(--font-base);
+  background-color: var(--color-yellow);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.itemSaveBtndiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+
+.itemsAdded,
+.totalItemsAdded {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 0.5px 8px #cccbcb;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 25px;
+}
+
+.totalItemsAdded p {
+  color: #008000;
+}
+
+.items_txt {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.eachItemAdded {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.deleteEditFont {
+  display: block;
+  align-self: center;
+  cursor: pointer;
+}
+
+.itemSaveBtn,
+.discountButton {
+  width: 60%;
+  height: 40px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #e01515;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.customerDetailsBtn {
+  width: 500px;
+  height: 60px;
+  border-radius: 10px 10px 10px 10px;
+  font-family: var(--font-base);
+  background-color: var(--color-yellow);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.discountButton {
+  width: 120%;
+  display: block;
+}
+
+.discountForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  height: 80px;
+  margin-bottom: 20px;
+  font-family: var(--font-base);
+
+}
+
+.addDiscBtnDiv {
+  display: flex;
+  width: 30%;
+}
+
+.requiredTag {
+  color: red;
+}
+
+.addItemXContainer,
+.quantityContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+
+.xClose {
+  cursor: pointer;
+}
+
+.addItemsContainer {
+  width: 25vw;
+  border-style: groove;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.psbtnsContainer {
+  width: 220px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.productBtn,
+.serviceBtn {
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.product_Btnn,
+.service_Btnn {
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  border: 1px solid var(--color-yellow);
+  height: 35px;
+  width: 100px;
+  font-family: var(--font-base);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.service_Btnn:hover {
+  background-color: var(--color-yellow);
+}
+
+.product_Btnn:hover {
+  background-color: var(--color-yellow);
+}
+
+.service_Btnn:active {
+  background-color: var(--color-yellow);
+}
+
+.product_Btnn:active {
+  background-color: var(--color-yellow);
+}
+
+.custom-date {
+  font-size: 20px;
+}
+
+.addItemsForms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-base);
+
+}
+
+.itemCounter {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  cursor: pointer;
+}
+
+.saveMoneyInDetailsdiv {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: 0 0.5px 8px #cccbcb;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 25px;
+
+}
+
+.saveMoneyInDetailsBtn {
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 10px 10px 10px;
+  font-family: var(--font-base);
+  background-color: var(--color-yellow);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/**MoneyIn Services Form*/
+
+.serviceDetailsFormm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name_of_servicee,
+.service_chargee,
+.select-Unitt {
+  width: 500px;
+  height: 55px;
+  padding: 12px 20px;
+  margin: 15px 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 20px 20px;
+  font-family: var(--font-base);
+}
+
+.saveServices_Btnn_div {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 25px;
+}
+
+.saveServices_Btnn {
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 20px;
+  font-family: var(--font-base);
+  background-color: var(--color-yellow);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.prodt-Name,
+.costPrice,
+.selling-Price {
+  width: 500px;
+  height: 55px;
+  padding: 12px 20px;
+  margin: 15px 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 20px 20px;
+  font-family: var(--font-base);
+
+}
+
+@media screen and (max-width: 2000px) {}
+
+@media screen and (max-width: 1300px) {
+  .moneyInPage {
+    width: 60vw;
+
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .moneyInPage {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .totalAmtFrm,
+  .amtRecievedfrm {
+    width: 280px;
+
+  }
+}
+
+@media screen and (max-width: 670px) {}
+
+@media screen and (max-width: 580px) {
+
+  .moneyInPage {
+    width: 92vw;
+    overflow-y: auto;
+    height: 150vh;
+  }
+
+  .enterMoneyTxt {
+    font-size: 16px;
+  }
+
+  .credit {
+    font-size: 15px;
+  }
+
+  .custom-date {
+    font-size: 15px;
+  }
+
+  .balanceDueContainer h3 {
+    font-size: 16px;
+  }
+
+  .totalAndRecievedAmt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selling-Price,
+  .name_of_servicee,
+  .service_chargee,
+  .select-Unitt,
+  .itemDescriptionFrm,
+  .prodt-Name {
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .product_Btnn,
+  .service_Btnn {
+    height: 33px;
+    width: 100px;
+    font-size: 15px;
+  }
+
+  .description,
+  .modeOfPayment,
+  .suggested_data {
+    font-size: 15px;
+    margin-bottom: 25px;
+
+  }
+
+  .description {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .modeOfPayment {
+    padding: 10px 10px 10px 10px;
+
+  }
+
+  .suggested_data {
+    width: 280px;
+  }
+
+
+  .radio-inLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .radio {
+    font-size: 15px;
+  }
+
+  input[type="radio"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .modeOfPayment {
+    padding: 10px 10px 10px 10px;
+
+  }
+
+  input[type="radio"] {
+    width: 5px;
+    height: 5px;
+    margin-right: 8px;
+    margin-left: 15px;
+
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .selling-Price,
+  .name_of_servicee,
+  .service_chargee,
+  .select-Unitt,
+  .itemDescriptionFrm,
+  .amtRecievedfrm,
+  .totalAmtFrm,
+  .prodt-Name {
+    width: 250px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .addItem {
+
+    font-size: 15px;
+
+  }
+}

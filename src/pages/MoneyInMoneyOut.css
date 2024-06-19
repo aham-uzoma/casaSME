@@ -1,0 +1,159 @@
+/**style used by moneyIn and MoneyOut*/
+.blackSurface {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: var(--color-black);
+    height: 30vh;
+}
+
+.blackSurface h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: var(--font-base);
+    color: white;
+    padding: 25px 25px 25px 25px;
+}
+
+.blackSurface span {
+    color: var(--color-yellow);
+}
+
+.moneyInOutLink p {
+    color: white;
+    padding-right: 40px;
+    font-size: 20px;
+
+}
+
+.moneyInOutLink p:hover {
+    color: var(--color-yellow)
+}
+
+.moneyInOutLink a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.moneyInOutLink a:hover {
+    border-bottom: 1px solid var(--color-yellow);
+}
+
+.amountsFormContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 25px;
+}
+
+.borderline1 {
+    height: 1px;
+    background-color: rgb(240, 239, 239);
+    border-color: rgb(240, 239, 239);
+    width: 100%;
+}
+
+.prodtName,
+.costPrice,
+.sellingPrice {
+    width: 500px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    font-family: var(--font-base);
+
+}
+
+.selectUnitt {
+    width: 500px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    font-family: var(--font-base);
+
+}
+
+.itemSaveBttn {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.addItemsContainr {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 25px;
+
+}
+
+@media screen and (max-width: 950px) {
+    .moneyInOutLink {
+        width: 200px;
+    }
+
+    .moneyInOutLink p {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        padding-right: 40px;
+        font-size: 20px;
+        width: 95px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .moneyInOutLink {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .moneyInOutLink {
+        width: 170px;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    .moneyInOutLink {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .moneyInOutLink {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .moneyInOutLink {
+        width: 200px;
+    }
+}

@@ -1,0 +1,257 @@
+.StockItemsList_Wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff6ed;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.stockItem_wrapper {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    margin-top: 15px;
+    padding: 20px 20px 20px 20px;
+}
+
+.searchAddDelete_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%
+}
+
+.glass_plus_trash {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    font-size: 22px;
+}
+
+.search_detail {
+    width: 250px;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 15px 15px 15px 15px;
+    font-family: var(--font-base);
+}
+
+.search_detail[type="text"]:focus {
+    border-color: var(--color-yellow);
+    outline: none;
+}
+
+.increment_decrement {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    color: green;
+    width: 60%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.add_Btn,
+.cancel_Btn {
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(11, 114, 11);
+    border: none;
+    height: 30px;
+    width: 80px;
+    font-family: var(--font-base);
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.cancel_Btn {
+    background-color: rgb(250, 42, 42);
+    margin-left: 10px;
+}
+
+.stk_name {
+    font-size: 24px;
+    font-family: var(--font-base);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stk_value {
+    font-size: 20px;
+}
+
+.stk_count {
+    color: green;
+    font-size: 20px;
+}
+
+
+
+.addEditButtonsCheckbox_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    width: 25%;
+
+}
+
+.addEditButtonsCheckbox_wrapper input {
+    width: 20px;
+    height: 20px;
+}
+
+.addStk_Font_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.add_stock_btn {
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--color-yellow);
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-family: var(--font-base);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-btn-fa {
+    padding-left: 5px;
+}
+
+
+
+/**EditInventory Page*/
+
+/**media Queries*/
+
+@media screen and (max-width: 1030px) {
+
+    .StockItemsList_Wrapper {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff6ed;
+        border-radius: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .StockItemsList_Wrapper {
+        width: 95%;
+        margin-top: 30px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .search_detail {
+        width: 400px;
+        height: 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 670px) {}
+
+@media screen and (max-width: 580px) {
+    .StockItemsList_Wrapper {
+        width: 95%;
+        margin-top: 30px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .add_stock_btn {
+        height: 30px;
+        width: 200px;
+        font-family: var(--font-base);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .edit-btn-fa {
+        padding-left: 10px;
+    }
+
+    .addEditButtonsCheckbox_wrapper {
+        width: 40%;
+    }
+
+    .item_search {
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+        align-items: start;
+        width: 40%;
+    }
+
+    .glass_plus_trash {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        font-size: 22px;
+    }
+
+    .searchAddDelete_Wrapper {
+        align-items: baseline;
+    }
+
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .StockItemsList_Wrapper {
+        width: 92%;
+    }
+
+    .search_detail {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 380px) {}
+
+@media screen and (max-width: 417px) {
+    .StockItemsList_Wrapper {
+        width: 90%;
+    }
+
+    .search_detail {
+        width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .search_detail {
+        width: 298px;
+    }
+}

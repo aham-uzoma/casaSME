@@ -1,0 +1,86 @@
+.testimonialSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: var(--font-base);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.testimonialContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonialContent h2 {
+    font-size: 67px;
+    color: rgb(36, 36, 35);
+    margin: 32px;
+}
+
+.aboutUsBackground {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--color-yellow);
+
+}
+
+.casaAboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    background-image: url("../../assets/casaabout.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.casaAboutContainer h2 {
+    text-align: center;
+    color: white;
+}
+
+.casaAboutContainer p {
+    text-align: center;
+    color: white;
+}
+
+.casaAboutContainer button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+    font-family: var(--font-base);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(36, 36, 35);
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutUsBackground {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background-color: var(--color-yellow);
+    }
+
+    .casaAboutContainer h2 {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,85 @@
+.addSupplierSection {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 5px;
+}
+
+.addSuppliersBtn {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.supplierNameContactDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0.5px 8px #cccbcb;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 25px;
+}
+
+.nameContact {
+    font-weight: bold;
+}
+
+.trashcan {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 2000px) {
+    .supplierNameContactDisplay {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .addSupplierSection {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px 10px 10px 10px;
+        padding: 20px 20px 20px 20px;
+        font-size: 18px;
+    }
+
+    .addSuppliersBtn {
+        width: 350px;
+        height: 60px;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 20px;
+    }
+
+    .supplierNameContactDisplay {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .addSupplierSection {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        font-size: 10px;
+    }
+
+    .addSuppliersBtn {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 14px;
+    }
+}

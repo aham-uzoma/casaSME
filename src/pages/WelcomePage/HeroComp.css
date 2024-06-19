@@ -1,0 +1,137 @@
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    font-family: var(--font-base);
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.heroContentsWrapper {
+    display: flex;
+    width: 60%;
+}
+
+.heroContentsWrapper h1 {
+    font-size: 67px;
+    color: rgb(36, 36, 35);
+    margin: 0;
+    padding: 0;
+}
+
+.heroContentsWrapper p {
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    margin: 0;
+    padding: 0;
+}
+
+.heroContainer button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+    font-family: var(--font-base);
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.heroContainer span {
+    margin-left: 20px;
+    color: rgb(150, 150, 150);
+
+}
+
+.titleText {
+    font: 300px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .heroContentsWrapper {
+        display: flex;
+        width: 80vw;
+    }
+
+
+}
+
+@media screen and (max-width: 1050px) {
+    .heroContainer {
+        width: 120vw;
+    }
+
+    .heroContentsWrapper {
+        display: flex;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .heroContainer {
+        height: 700px;
+
+    }
+
+    .heroContentsWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .heroContentsWrapper h1 {
+        font-size: 50px;
+        color: rgb(36, 36, 35);
+        margin: 0;
+        padding: 0;
+    }
+
+    .heroContainer span {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .heroContainer {
+        height: 700px;
+        width: 100vw;
+    }
+
+    .heroContentsWrapper {
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .heroContainer {
+        height: 700px;
+        width: 100vw;
+    }
+
+    .heroContentsWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .heroContentsWrapper h1 {
+        font-size: 50px;
+        color: rgb(36, 36, 35);
+        margin: 0;
+        padding: 0;
+    }
+
+    .heroContainer span {
+        display: none;
+
+    }
+}
