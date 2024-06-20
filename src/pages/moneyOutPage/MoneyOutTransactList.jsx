@@ -40,8 +40,8 @@ const MoneyOutTransactList = () => {
             <div className='blackSurface'><h1>All Money Out: <span>_Debit.</span></h1>
                 <div className='moneyInOutLink'><p><a href='/moneyInTransactList'>All&nbsp;Money&nbsp;In</a></p></div>
             </div>
+            {isLoading ? <p><img src={require('../assets/Spinner.gif')} alt='loading'/></p>:
             <div className='moneyInPage'>
-
                 {Object.entries(groupedData).slice(0).reverse().map(([date, itemz]) => {
                     return (
                         <>
@@ -77,7 +77,7 @@ const MoneyOutTransactList = () => {
                         </>
                     )
                 })}
-            </div>
+            </div>}
         </div>)
 }
 
