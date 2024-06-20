@@ -12,7 +12,7 @@ import useAxiosPrivate from '../../hooks/useAxiosPrivate';
 
 const MoneyOutTransactList = () => {
     const [moneyOutDataByDate, setMoneyOutDataByDate] = useState([])
-
+    const [isLoading, setIsLoading] = useState(true)
     const axiosPrivate = useAxiosPrivate()
 
     // group the data by date
@@ -27,10 +27,12 @@ const MoneyOutTransactList = () => {
 
     //retrieving and setting all moneyOut Data by date.
     useEffect(() => {
+        setIsLoading(true)
         axiosPrivate.get('/yearlyMoneyOut/moneyOutByYear').then((response) => {
             setMoneyOutDataByDate(response.data)
+            setIsLoading(false)
             console.log(response.data)
-        }).catch((e) => console.log('something went wrong :(', e));
+        }).catch((e) => {console.log('something went wrong :(', e);setIsLoading(false)});
     }, [])
 
     let groupedData = groupBy(moneyOutDataByDate, (data) => dayjs(data.createdAt).format('dddd DD MMMM YYYY'));
