@@ -12,6 +12,7 @@ import useAxiosPrivate from '../hooks/useAxiosPrivate';
 
 const MoneyInTransactList = () => {
     const [moneyInDataByDate, setMoneyInDataByDate] = useState([])
+    const [isLoading, setIsLoading] = useState(true)
     const axiosPrivate = useAxiosPrivate()
     // groups the data by date
     const groupBy = (arr, keyFn) => {
@@ -27,9 +28,11 @@ const MoneyInTransactList = () => {
 
     //retrieves and sets the yearly data to state
     useEffect(() => {
+        setIsLoading(true)
         axiosPrivate.get('/yearlyMoneyIn/moneyInByYear').then((response) => {
             setMoneyInDataByDate(response.data)
-        }).catch((e) => console.log('something went wrong :(', e));
+            setIsLoading(false)
+        }).catch((e) => {console.log('something went wrong :(', e);setIsLoading(false)});
     }, [])
 
     return (
@@ -38,8 +41,8 @@ const MoneyInTransactList = () => {
             <div className='blackSurface'><h1>All Money In: <span>_Credit.</span></h1>
                 <div className='moneyInOutLink'><p><a href='/moneyOutTransactList'>All&nbsp;Money&nbsp;Out</a></p></div>
             </div>
+            {isLoading ? <p><img src={require('../assets/Spinner.gif')} alt='loading'/></p>:
             <div className='moneyInPage'>
-
                 {Object.entries(groupedData).slice(0).reverse().map(([date, itemz]) => {
                     return (
                         <>
@@ -75,7 +78,7 @@ const MoneyInTransactList = () => {
                         </>
                     )
                 })}
-            </div>
+            </div>}
         </div>
 
 
