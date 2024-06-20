@@ -41,6 +41,9 @@ const HomeLayOutt = () => {
   const navigate = useNavigate()
   const goToMoneyIn = () => navigate('/moneyIn')
   const goToMoneyOut = () => navigate('/moneyOut')
+  const goToMoneyInTransaction=()=>navigate('/moneyInTransactList')
+  const goToMoneyOutTransaction=()=>navigate('/moneyOutTransactList')
+
 
   //retrieves all Items(moneyIn and moneyOut items) from the database
   useEffect(() => {
@@ -231,7 +234,7 @@ const HomeLayOutt = () => {
       <div className='moneyInOut_transact_wrapper'>
         {/* MoneyIn Table View */}
         <div className='moneyInDailyTransact_container'>
-          <div className='moneyIn_viewAll'><div className='moneyInTxt'>Money In</div><div className='viewAllTxt'><p><a href='/moneyInTransactList'>View All</a></p></div></div>
+          <div className='moneyIn_viewAll'><div className='moneyInTxt'>Money In</div><div className='viewAllTxt'><p onClick={goToMoneyInTransaction}>View All</p></div></div>
 
           {itemsList.length > 0 ? itemsList.slice(-2).reverse().map(obj => obj.newItems.map((itemz) => {
             const { productName, sellingPrice, selectedQtyNumber } = itemz;
@@ -256,7 +259,7 @@ const HomeLayOutt = () => {
         <hr />
         {/* TMoneyOut Table View */}
         <div className='moneyOutDailyTransact_container'>
-          <div className='moneyOut_viewAll'><div className='moneyOutTxt'>Money Out</div><div className='viewAllTxt'><p><a href='/moneyOutTransactList'>View All</a></p></div></div>
+          <div className='moneyOut_viewAll'><div className='moneyOutTxt'>Money Out</div><div className='viewAllTxt'><p onClick={goToMoneyOutTransaction}>View All</p></div></div>
           {moneyOutItems.length > 0 ? moneyOutItems.slice(-2).reverse().map(obj => obj.newMoneyOutItem.map((itemz) => {
             const { product_service, cost_price, item_quantity } = itemz;
             return (

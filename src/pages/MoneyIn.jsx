@@ -8,6 +8,7 @@ import CurrentDates from '../components/CurrentDates';
 import CustomerNameEntry from '../components/CustomerNameEntryComp/CustomerNameEntry'
 import AddCustomer from '../components/AddCustomer/AddCustomer'
 import useAxiosPrivate from '../hooks/useAxiosPrivate'
+import { useNavigate } from 'react-router-dom'
 
 
 /**
@@ -61,6 +62,8 @@ const MoneyIn = () => {
 
     const axiosPrivate = useAxiosPrivate();
     const refContain = useRef()
+    const navigate = useNavigate()
+    const goToMoneyOut = () => navigate('/moneyOut')
 
     //handles form input
     const handleTotalAmtInChange = (e) => {
@@ -376,7 +379,7 @@ const MoneyIn = () => {
     return (
         <div className='moneyInRoute'>
             <div className='blackSurface'><h1>Money In: <span>_Credit.</span></h1>
-                <div className='moneyInOutLink'><p><a href='/moneyOut'>MoneyOut</a></p></div>
+                <div className='moneyInOutLink'><p onClick={goToMoneyOut}>MoneyOut</p></div>
             </div>
             <div className='moneyInPage'>
                 <div className='amountsFormContainer'>

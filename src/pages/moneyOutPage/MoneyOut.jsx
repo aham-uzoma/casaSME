@@ -7,6 +7,7 @@ import AddSupliers from '../../components/AddSuppliers/AddSupliers'
 import SupplierNameCompont from '../../components/SupplierNameCompont/SupplierNameCompont'
 import FlashMessages from '../../components/FlashMessages'
 import useAxiosPrivate from '../../hooks/useAxiosPrivate'
+import { useNavigate } from 'react-router-dom'
 
 /**
  * This component handles all Money Out/Daily Debit
@@ -45,6 +46,8 @@ const MoneyOut = () => {
 
     const refContainer = useRef()
     const axiosPrivate = useAxiosPrivate()
+    const navigate = useNavigate()
+    const goToMoneyIn = () => navigate('/moneyIn')
 
     //handles data input
     const handleTotalAmtOut = (e) => {
@@ -228,7 +231,7 @@ const MoneyOut = () => {
         <>
             <div className='moneyOutDiv'>
                 <div className='blackSurface'><h1>Money Out: <span>_Debit.</span></h1>
-                    <div className='moneyInOutLink'><p><a href='/moneyIn'>MoneyIn</a></p></div>
+                    <div className='moneyInOutLink'><p onClick={goToMoneyIn}>MoneyIn</p></div>
                 </div>
                 <div className='moneyOutWrapper'>
                     <div className='amountsFormContainer'>
