@@ -25,8 +25,8 @@
 }
 
 .logIn_wrap img{
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     margin-bottom: 20px;
 }
 
@@ -46,7 +46,7 @@
     height: 65px;
     padding: 12px 20px;
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 18px;
     box-sizing: border-box;
     border-radius: 20px 20px 20px 20px;
     font-family: var(--font-base);
@@ -58,7 +58,7 @@
     border-radius: 10px 10px 10px 10px;
     font-family: var(--font-base);
     background-color: var(--color-yellow);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     margin: 20px 20px 20px 20px;
     border: none;
@@ -74,7 +74,7 @@
     border-radius: 10px 10px 10px 10px;
     font-family: var(--font-base);
     background-color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     margin: 20px 20px 20px 20px;
     border-color: rgb(211, 210, 210);
