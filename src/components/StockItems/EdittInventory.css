@@ -9,7 +9,7 @@
 }
 
 .productDetailsFrm {
-    width: 45%;
+    width: 55%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -61,7 +61,7 @@ h1 {
     margin-top: 20px;
     font-family: var(--font-base);
     background-color: rgb(11, 114, 11);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     border: none;
     cursor: pointer;

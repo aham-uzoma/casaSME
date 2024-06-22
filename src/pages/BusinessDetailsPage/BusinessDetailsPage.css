@@ -42,7 +42,7 @@
     background-color: gainsboro;
     font-weight: bold;
     align-items: center;
-    font-size: 18px;
+    font-size: 17px;
     padding: 20px 20px 20px 20px;
 }
 
@@ -78,8 +78,8 @@
 }
 
 .avatar_circle {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     background-color: darkgrey;
 }
@@ -93,7 +93,7 @@
     padding: 20px 20px 20px 20px;
     background-color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     box-shadow: 0 0.5px 8px #cccbcb;
 }
 
