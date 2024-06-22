@@ -10,7 +10,7 @@
 .invoice_to_moneyOut_wrapper {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 50%;
     height: 85%;
     align-items: center;
     margin-top: 30px;
@@ -21,7 +21,7 @@
 .moneyInOut_transact_wrapper {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 48%;
     height: 70%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
@@ -36,7 +36,7 @@
 .moneyInDailyTransact_container {
     display: flex;
     flex-direction: column;
-    width: 44%;
+    width: 46%;
     background-color: white;
     padding-right: 30px;
     padding-top: 30px;
@@ -51,6 +51,7 @@
     background-color: white;
     padding: 30px 40px 30px 0px;
     border-radius: 0px 20px 20px 0px;
+    margin-left: 10px;
 }
 
 hr {
@@ -70,7 +71,7 @@ hr {
 }
 
 .items_wrap {
-    width: 400px;
+    width: 200px;
 
 }
 
@@ -81,7 +82,7 @@ hr {
 
 .itm {
     font-size: 22px;
-    width: 220px;
+    width: 150px;
 
 }
 
@@ -97,7 +98,7 @@ hr {
     display: flex;
     justify-content: flex-end;
     color: #019901;
-    width: 150px;
+    width: 100px;
 }
 
 .numbers3 {
@@ -115,6 +116,7 @@ hr {
     background-color: #faea11;
     box-shadow: 0 0px 10px #b4b4b4;
     border-radius: 50%;
+    margin-right: 5px;
 }
 
 .img2 {
@@ -127,11 +129,11 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    width: 420px
+    width: 270px
 }
 
 .viewAllTxt {
-    font-size: 18px;
+    font-size: 17px;
     color: gray;
     cursor: pointer;
 }
@@ -153,14 +155,14 @@ hr {
 
 .moneyInTxt,
 .moneyOutTxt {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(71, 71, 71);
     margin-bottom: 0px;
 }
 
 .invoice_Container {
-    width: 95%;
+    width: 92%;
     height: 50%;
     padding: 30px 18px 30px 30px;
     background-color: white;
@@ -194,6 +196,16 @@ hr {
     padding: 20px 20px 20px 20px;
 
 }
+.balanceDue_container,
+.yourDebt_container{
+    height: 230px;
+}
+
+.moneyIn_container,
+.moneyOut_container{
+    height:185px;
+    width:250px;
+}
 
 .yourDebt_container,
 .moneyOut_container {
@@ -217,7 +229,7 @@ hr {
 .icons_and_texts {
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 121px;
 }
 
 .icons_and_text2 {
@@ -236,8 +248,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background-color: #faea11;
     box-shadow: 0 0px 10px #b4b4b4;
     border-radius: 50%;
@@ -287,13 +299,13 @@ hr {
 }
 
 .number {
-    font-size: 55px;
+    font-size: 40px;
     color: rgb(71, 71, 71);
 
 }
 
 .invoiceData {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(71, 71, 71);
     margin-bottom: 0px;
@@ -316,7 +328,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 95%;
-    gap: 25px;
+    gap: 10px;
 }
 
 .moneyIn,
@@ -334,7 +346,7 @@ hr {
 }
 
 .amount {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(71, 71, 71);
 }
@@ -357,187 +369,6 @@ hr {
 
 .moneyIn_card_button2 {
     background-color: rgb(241, 131, 6);
-}
-
-@media screen and (max-width: 1366px) {
-    .homeLayOutt_Container {
-        width: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .invoice_to_moneyOut_wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    }
-
-    .creditIncome,
-    .descriptive_text {
-        font-size: 20px;
-
-    }
-
-    .balance_yourDebt_wrapper,
-    .moneyIn_moneyOut_wrapper {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-        height: 50%;
-        align-items: baseline;
-        margin-right: 50px;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .yourDebt_container {
-        width: 80vw;
-        margin-left: 15px;
-        margin-right: 0px;
-        padding-bottom: 30px;
-
-    }
-
-    .balanceDue_container {
-        width: 80vw;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-bottom: 0px;
-        height: 100%;
-
-    }
-
-    .moneyIn_container {
-        width: 80vw;
-    }
-
-    .moneyOut_container {
-        margin-top: 20px;
-        margin-left: 15px;
-        margin-right: 0px;
-        width: 80vw;
-    }
-
-    .moneyInOut_transact_wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 90vw;
-        height: 70%;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        padding: 20px 0px 20px -20px;
-        box-shadow: 0 0px 10px #b4b4b4;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-        margin-right: 5px;
-    }
-
-    .moneyIn_viewAll,
-    .moneyOut_viewAll {
-        width: 83vw;
-
-    }
-
-    .moneyOutTxt,
-    .moneyInTxt {
-        font-size: 30px;
-    }
-
-    .viewAllTxt {
-        font-size: 22px;
-
-    }
-
-    .items_wrap {
-        width: 80vw;
-    }
-
-    .img_item_qty {
-        width: 220px;
-    }
-
-    .itm {
-        font-size: 30px;
-    }
-
-    .numbers2,
-    .numbers3,
-    .qty {
-        font-size: 30px;
-    }
-
-    .numbers3 {
-        width: 500px;
-    }
-
-    .edit_del_print {
-        font-size: 1px;
-    }
-
-    .img,
-    .img2 {
-        width: 45px;
-        height: 36px;
-        margin-right: 5px;
-    }
-
-    .invoiceData {
-        font-size: 30px
-    }
-
-    .monthly {
-        font-size: 25px;
-    }
-
-    .invoice_Container {
-        width: 78vw;
-        margin-left: 0px;
-        margin-right: 60px;
-        margin-bottom: -25px;
-        padding-bottom: -50px;
-    }
-
-    .circle,
-    .circle_green,
-    .circle_orange,
-    .circle_green2,
-    .circle_orange2,
-    .circle_black {
-        width: 90px;
-        height: 90px;
-    }
-
-    .icons_and_texts {
-        flex-direction: row;
-        width: 200px
-    }
-
-    .icons_and_text2 {
-        gap: 20px;
-        width: 75vw;
-        margin-right: 10px;
-    }
-
-    .number {
-        font-size: 40px;
-        font-weight: bold;
-    }
-
-    .sentOut {
-        font-size: 25px;
-    }
-
-    .hr {
-        display: none;
-    }
-
 }
 
 @media screen and (max-width: 1180px) {
@@ -582,6 +413,7 @@ hr {
         margin-left: 15px;
         margin-right: 0px;
         padding-bottom: 10px;
+        height: 300px;
 
     }
 
@@ -591,11 +423,13 @@ hr {
         margin-right: 0px;
         padding-bottom: 16px;
         height: 100%;
+        height: 300px;
 
     }
 
     .moneyIn_container {
         width: 80vw;
+        height: 250px;
     }
 
     .moneyOut_container {
@@ -603,6 +437,8 @@ hr {
         margin-left: 15px;
         margin-right: 0px;
         width: 80vw;
+        height: 250px;
+
     }
 
     .moneyInOut_transact_wrapper {
@@ -664,8 +500,8 @@ hr {
 
     .img,
     .img2 {
-        width: 45px;
-        height: 36px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
     }
 
@@ -691,8 +527,8 @@ hr {
     .circle_green2,
     .circle_orange2,
     .circle_black {
-        width: 90px;
-        height: 90px;
+        width: 60px;
+        height: 60px;
     }
 
     .icons_and_texts {
@@ -1101,10 +937,13 @@ hr {
         width: 80vw;
         margin-left: 0px;
         margin-right: 0px;
+        height: 260px;
     }
 
     .moneyIn_container {
         width: 80vw;
+        height: 230px;
+
     }
 
     .moneyOut_container {
@@ -1112,6 +951,8 @@ hr {
         margin-left: 0px;
         margin-right: 0px;
         width: 80vw;
+        height: 230px;
+
     }
 
     .moneyInOut_transact_wrapper {
@@ -1132,7 +973,7 @@ hr {
 
     .moneyIn_viewAll,
     .moneyOut_viewAll {
-        width: 85vw;
+        width: 80vw;
 
     }
 
@@ -1155,13 +996,13 @@ hr {
     }
 
     .itm {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .numbers2,
     .numbers3,
     .qty {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .numbers3 {
@@ -1175,7 +1016,7 @@ hr {
     .img,
     .img2 {
         width: 45px;
-        height: 36px;
+        height: 45px;
         margin-right: 5px;
     }
 
@@ -1225,6 +1066,9 @@ hr {
     .hr {
         display: none;
     }
+    .descriptive_text{
+        font-size: 16px;
+    }
 
 }
 
@@ -1256,6 +1100,9 @@ hr {
         margin-right: 60px;
         width: 90vw;
     }
+    .descriptive_text{
+        font-size: 16px;
+    }
 
     .yourDebt_container {
         width: 80vw;
@@ -1267,10 +1114,13 @@ hr {
         width: 80vw;
         margin-left: 0px;
         margin-right: 0px;
+        height: 260px;
+
     }
 
     .moneyIn_container {
         width: 80vw;
+        height: 230px;
     }
 
     .moneyOut_container {
@@ -1278,6 +1128,7 @@ hr {
         margin-left: 0px;
         margin-right: 0px;
         width: 80vw;
+        height: 230px;
     }
 
     .moneyInOut_transact_wrapper {
@@ -1298,7 +1149,7 @@ hr {
 
     .moneyIn_viewAll,
     .moneyOut_viewAll {
-        width: 85vw;
+        width: 80vw;
 
     }
 
@@ -1321,13 +1172,13 @@ hr {
     }
 
     .itm {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .numbers2,
     .numbers3,
     .qty {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .numbers3 {
@@ -1341,7 +1192,7 @@ hr {
     .img,
     .img2 {
         width: 45px;
-        height: 36px;
+        height: 45px;
         margin-right: 5px;
     }
 

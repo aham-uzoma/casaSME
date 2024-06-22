@@ -30,6 +30,7 @@
 
 .newInvoice_wrapper h1 {
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .newInvoice_wrapper {
@@ -55,7 +56,7 @@
 }
 
 .newInvoiceData {
-    width: 58%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
@@ -68,7 +69,7 @@
 
 .invoiceList {
     padding: 10px 10px 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -95,7 +96,7 @@
 
 
 .newInvoice_div p {
-    font-size: 25px;
+    font-size: 19px;
 
 }
 

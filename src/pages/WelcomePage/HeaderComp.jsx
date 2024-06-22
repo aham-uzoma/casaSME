@@ -9,8 +9,7 @@ import { Link, useNavigate } from 'react-router-dom'
 const HeaderComp = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   const navigate = useNavigate()
-  const goToLogIn = () => navigate('/logIn')
-
+  const goToLogIn = () => {navigate('/logIn'); setToggleMenu(false)}
 
   let navBar = document.querySelector('.app__navbar2')
   console.log('NAVBAR:', navBar);
@@ -69,11 +68,11 @@ const HeaderComp = () => {
           <div className='app__navbar-smallscreen_overlay2' data-aos='fade-down' data-aos-delay='400'>
             <FontAwesomeIcon icon={faXmark} color='#000' fontSize={15} className='overlay__close2' onClick={() => { setToggleMenu(false) }} />
             <ul className='app__navbar-smallscreen-links2'>
-              <li className='p__opensans'><a href="#brands">Brands</a></li>
-              <li className='p__opensans'><a href="#features">Features</a></li>
-              <li className='p__opensans'><a href="#pricing">Pricing</a></li>
-              <li className='p__opensans'><a href="#joinUs">Join Us</a></li>
-              <li className='p__opensans'><a href="#login">LogIn</a></li>
+              <li className='p__opensans'onClick={() => { setToggleMenu(false); }}><a href="#brands" >Brands</a></li>
+              <li className='p__opensans' onClick={() => { setToggleMenu(false); }}><a href="#features">Features</a></li>
+              <li className='p__opensans' onClick={() => { setToggleMenu(false); }}><a href="#pricing">Pricing</a></li>
+              <li className='p__opensans' onClick={() => { setToggleMenu(false); }}><a href="#joinUs">Join Us</a></li>
+              <li className='p__opensans' onClick={goToLogIn}>LogIn</li>
             </ul>
           </div>
 

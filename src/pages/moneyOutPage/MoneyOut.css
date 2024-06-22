@@ -12,7 +12,7 @@
 }
 
 .moneyOutWrapper {
-    width: 45vw;
+    width: 55vw;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px 20px 20px 20px;
@@ -23,17 +23,17 @@
 }
 
 .moneysAndDate h3 {
-    font-size: 25px;
+    font-size: 19px;
     margin-bottom: 0;
 }
 
 .balanceDueContainr h4 {
-    font-size: 20px;
+    font-size: 17px;
     color: red;
 }
 
 .balanceDueContainr h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .totalAmtForm,
@@ -43,7 +43,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -72,7 +72,7 @@
     border-radius: 10px 10px 10px 10px;
     font-family: var(--font-base);
     background-color: var(--color-yellow);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -91,7 +91,7 @@
 }
 
 .addItemXContainr div {
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -116,7 +116,7 @@
 }
 
 .quantityContainer div {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -134,7 +134,7 @@
     height: 55px;
     padding: 12px 20px;
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 18px;
     box-sizing: border-box;
     border-radius: 10px 10px 10px 10px;
 }
@@ -145,7 +145,7 @@
     border-radius: 10px 10px 10px 10px;
     font-family: var(--font-base);
     background-color: var(--color-yellow);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -165,17 +165,6 @@
 .saveMoneyOutDetailsBtn {
     width: 600px;
     background-color: #3bcc3b;
-}
-
-@media screen and (max-width: 2000px) {
-    .moneyOutWrapper {
-        width: 45vw;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 10px 10px 10px 10px;
-    }
-
-
 }
 
 @media screen and (max-width: 1300px) {

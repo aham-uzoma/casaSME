@@ -11,35 +11,41 @@
 
 .features1ContentWrapper3 {
     display: flex;
-    width: 60%;
+    width: 63%;
 }
 
 .describtionLearnMore3 {
     width: 50%
 }
 
-.describtionLearnMore3 div,
-p {
-    font-size: 20px;
+.describtionLearnMore3 div {
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    margin: 0;
+    padding: 0;
+}
+
+.describtionLearnMore3 p {
+    font-size: 16px;
     color: rgb(150, 150, 150);
     margin: 0;
     padding: 0;
 }
 
 .describtionLearnMore3 h2 {
-    font-size: 67px;
+    font-size: 50px;
     color: rgb(36, 36, 35);
     margin: 0;
     padding: 0;
 }
 
 .describtionLearnMore3 button {
-    width: 250px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     border-radius: 10px 10px 10px 10px;
     margin-top: 25px;
     font-family: var(--font-base);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
     cursor: pointer;

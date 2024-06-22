@@ -366,8 +366,8 @@ const MoneyIn = () => {
                     })}
                     <div className='totalItemsAdded'>
                         <p>Total</p>
-                        {showTotalSellingPrice && <p>${totalSellingPrice}</p>}
-                        {showTotalAmountIn && <p>${totalAmountIn}</p>}
+                        {showTotalSellingPrice && <p>N{totalSellingPrice}</p>}
+                        {showTotalAmountIn && <p>N{totalAmountIn}</p>}
                     </div>
                 </div>
             );

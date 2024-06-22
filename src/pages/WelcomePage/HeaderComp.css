@@ -9,11 +9,10 @@
     /* Add these properties to prevent content jump */
     z-index: 100;
     background-color: white;
-
     font-family: var(--font-base);
-    font-size: 20px;
+    font-size: 13px;
     padding: 16px;
-    height: 60px;
+    height: 40px;
 }
 
 .app__navbar2.has-shadow {
@@ -24,8 +23,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 120px;
-    height: 90px;
+    width: 100px;
+    height: 50px;
 }
 
 .app_navbar_content2 {
@@ -35,9 +34,9 @@
     background-color: white;
     color: rgb(36, 36, 35);
     font-family: var(--font-base);
-    font-size: 20px;
+    font-size: 16px;
     padding: 16px;
-    height: 60px;
+    height: 40px;
     width: 80%;
 }
 
@@ -63,11 +62,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     border-radius: 10px 10px 10px 10px;
     font-family: var(--font-base);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
     cursor: pointer;

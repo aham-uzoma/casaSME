@@ -273,10 +273,10 @@ const HomeLayOutt = () => {
             )
           })) : <div className='items_wrap'>
             <div className='img_item_qty'>
-              <div className='img2'><MoneyOutIcon2 color={'#faea11'} /></div><div className='itm'>No Transaction<div className='qty'>NILL
+              <div className='img2'><MoneyOutIcon2 color={'#faea11'} /></div><div className='itm'>None<div className='qty'>NILL
               </div></div>
             </div>
-            <div className='numbers3'>-N0.00</div>
+            <div className='numbers3'>N0.00</div>
           </div>}
         </div>
       </div>

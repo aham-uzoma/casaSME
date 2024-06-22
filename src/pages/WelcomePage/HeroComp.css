@@ -11,38 +11,38 @@
 
 .heroContentsWrapper {
     display: flex;
-    width: 60%;
+    width: 63%;
 }
 
 .heroContentsWrapper h1 {
-    font-size: 67px;
+    font-size: 50px;
     color: rgb(36, 36, 35);
     margin: 0;
     padding: 0;
 }
 
 .heroContentsWrapper p {
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(150, 150, 150);
     margin: 0;
     padding: 0;
 }
 
 .heroContainer button {
-    width: 250px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 25px;
+    margin-top: 40px;
     font-family: var(--font-base);
     background-color: var(--color-yellow);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
     cursor: pointer;
 }
 
 .heroContainer span {
-    margin-left: 20px;
+    margin-left: 8px;
     color: rgb(150, 150, 150);
 
 }

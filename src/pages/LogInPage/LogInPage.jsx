@@ -38,6 +38,7 @@ const LogInPage = () => {
   const navigate = useNavigate()
 
   const goToRegister = () => navigate('/registerPage')
+  const goToWelcome = () => { navigate('/welcome'); }
 
 
   const handleLogIn = () => {
@@ -81,6 +82,7 @@ const LogInPage = () => {
   return (
     <div className='logIn_div'>
       <div className='logIn_wrap'>
+        <img onClick={goToWelcome} src={require('../../assets/casa.png')} alt='casaLogo' />
         <section><h1>Login</h1></section>
         <FlashMessages message={themessage} open={open} severity={severity} onClose={handleClose} />
         <form className='logInForms'>

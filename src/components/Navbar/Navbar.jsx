@@ -21,6 +21,7 @@ const Navbar = () => {
    const goToHome = () => { navigate('/'); setToggleMenu(false) }
    const goToBusinessPage = () => { navigate('/BusinessDetailsPage'); setToggleMenu(false) }
 
+
    const axiosPrivate = useAxiosPrivate();
 
 

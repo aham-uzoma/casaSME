@@ -24,6 +24,12 @@
 
 }
 
+.registration_wrap img{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
 .registration_wrap p {
     color: rgb(122, 122, 122);
 }

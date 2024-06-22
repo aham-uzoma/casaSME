@@ -12,11 +12,15 @@
 }
 
 .moneyInPage {
-  width: 45vw;
+  width: 55vw;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px 20px 20px 20px;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.moneyInOutLink{
+  cursor: pointer;
 }
 
 .credit {
@@ -51,7 +55,7 @@
 }
 
 .radio {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 input[type="radio"] {
@@ -83,7 +87,7 @@ input[type="radio"]:checked {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--font-base);
   border-radius: 10px 10px 10px 10px;
 }
@@ -93,7 +97,7 @@ input[type="radio"]:checked {
   height: 55px;
   padding: 12px 20px;
   margin: 15px 0;
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--font-base);
   box-sizing: border-box;
   border-radius: 10px 10px 10px 10px;
@@ -110,7 +114,7 @@ input[type="radio"]:checked {
   box-shadow: 0 0.5px 8px #cccbcb;
   padding: 0px 20px 20px 20px;
   margin-bottom: 25px;
-  font-size: 19px;
+  font-size: 18px;
   font-family: var(--font-base);
 }
 
@@ -185,7 +189,7 @@ input[type="radio"]:checked {
 }
 
 .items_txt {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -195,7 +199,7 @@ input[type="radio"]:checked {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
   gap: 10px;
 }
 
@@ -222,7 +226,7 @@ input[type="radio"]:checked {
   border-radius: 10px 10px 10px 10px;
   font-family: var(--font-base);
   background-color: var(--color-yellow);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -316,7 +320,7 @@ input[type="radio"]:checked {
 }
 
 .custom-date {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .addItemsForms {
@@ -351,7 +355,7 @@ input[type="radio"]:checked {
   border-radius: 10px 10px 10px 10px;
   font-family: var(--font-base);
   background-color: var(--color-yellow);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -372,7 +376,7 @@ input[type="radio"]:checked {
   height: 55px;
   padding: 12px 20px;
   margin: 15px 0;
-  font-size: 20px;
+  font-size: 18px;
   box-sizing: border-box;
   border-radius: 20px 20px 20px 20px;
   font-family: var(--font-base);
@@ -394,7 +398,7 @@ input[type="radio"]:checked {
   margin-top: 20px;
   font-family: var(--font-base);
   background-color: var(--color-yellow);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -407,7 +411,7 @@ input[type="radio"]:checked {
   height: 55px;
   padding: 12px 20px;
   margin: 15px 0;
-  font-size: 20px;
+  font-size: 18px;
   box-sizing: border-box;
   border-radius: 20px 20px 20px 20px;
   font-family: var(--font-base);

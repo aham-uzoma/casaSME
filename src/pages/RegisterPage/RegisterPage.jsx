@@ -23,6 +23,7 @@ const RegisterPage = () => {
   const [open, setOpen] = useState(false)
   const navigate = useNavigate()
   const gotoLogIn = () => navigate('/login')
+  const goToWelcome = () => navigate('/welcome')
 
   //handles form inputs
   const handleBusinessName = (e) => {
@@ -126,6 +127,7 @@ const RegisterPage = () => {
   return (
     <div className='registeration_div'>
       <div className='registration_wrap'>
+      <img onClick={goToWelcome} src={require('../../assets/casa.png')} alt='casaLogo' />
         <section><h1>Register</h1></section>
         {/* encType="multipart/form-data" ---for reference purposes*/}
         <form className='registerForms'>
