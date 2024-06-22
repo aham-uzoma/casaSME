@@ -5,6 +5,7 @@ import useLogOutHook from '../../hooks/useLogOutHook'
 import useAxiosPrivate from '../../hooks/useAxiosPrivate'
 import Axios from '../../api/axios'
 
+
 /**
  * This component displays business details page
  * from the database, users are regarded as businesses in
@@ -18,8 +19,7 @@ const BusinessDetailsPage = () => {
   const [newAvatar, setNewAvatar] = useState(null)
   const [showUploadImgBtn, setShowUploadImgBtn] = useState(false)
   const [userIDObj, setUserID] = useState({ user_ID: '' })
-  const axiosPrivate = useAxiosPrivate();
-
+  const axiosPrivate = useAxiosPrivate()
 
   const navigate = useNavigate()
   const logOut = useLogOutHook()
@@ -48,6 +48,8 @@ const BusinessDetailsPage = () => {
   }
   const showUploadBtn = () => {
     setShowUploadImgBtn(true)
+    console.log('imageData:', imageData)
+
   }
   const hideUploadBtn = () => {
     setShowUploadImgBtn(false)
@@ -56,7 +58,6 @@ const BusinessDetailsPage = () => {
   const handleImageUpdate = async () => {
     const formData = new FormData()
     const userID = userIDObj.user_ID
-
     formData.append('newAvatar', newAvatar)
     formData.append('userID', userID)
 
@@ -73,8 +74,7 @@ const BusinessDetailsPage = () => {
         <div className='businessPageDetails'>
           <div className='avatar_logOut'>
             <div className='avatar_circle'>
-            {imageData && <img src={require(`../../assets/casa.png`)} alt='User Avatar'
-              // {imageData && <img src={require(`../../../server/files/${imageData}`)} alt='User Avatar'
+              {imageData && <img src={"/static/"+ imageData } alt='User Avatar'
                 style={{
                   width: '100%',
                   height: '100%',
