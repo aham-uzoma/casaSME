@@ -6,6 +6,7 @@ import useAxiosPrivate from '../../hooks/useAxiosPrivate'
 import Axios from '../../api/axios'
 
 
+
 /**
  * This component displays business details page
  * from the database, users are regarded as businesses in
@@ -74,7 +75,7 @@ const BusinessDetailsPage = () => {
         <div className='businessPageDetails'>
           <div className='avatar_logOut'>
             <div className='avatar_circle'>
-              {imageData && <img src={"/static/"+ imageData } alt='User Avatar'
+              {imageData && <img src={`http://localhost:3500/static/${imageData}`} alt='User Avatar'
                 style={{
                   width: '100%',
                   height: '100%',
