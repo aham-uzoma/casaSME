@@ -75,7 +75,7 @@ const BusinessDetailsPage = () => {
         <div className='businessPageDetails'>
           <div className='avatar_logOut'>
             <div className='avatar_circle'>
-              {imageData && <img src={`http://localhost:3500/static/${imageData}`} alt='User Avatar'
+              {imageData && <img src={`https://casasmeapi.onrender.com/static/${imageData}`} alt='User Avatar'
                 style={{
                   width: '100%',
                   height: '100%',
